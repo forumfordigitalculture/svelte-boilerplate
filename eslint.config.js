@@ -91,4 +91,5 @@ export default antfu({
       },
     ],
   },
+  ignores: ["src/lib/components/ui/**/*"],
 });

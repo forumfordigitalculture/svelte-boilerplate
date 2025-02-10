@@ -8,3 +8,6 @@ yarn.lock
 
 # Svelte
 .svelte-kit
+
+# Shadcn
+src/lib/components/ui/**/*

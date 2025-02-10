@@ -1,6 +1,5 @@
 {
   "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
-  "tailwindStylesheet": "./src/app.css",
   "tailwindFunctions": ["tv", "cn"],
   "overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
 }
