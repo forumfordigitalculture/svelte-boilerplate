@@ -7,6 +7,7 @@ const config = {
   preprocess: [vitePreprocess(), mdsvex()],
   kit: {
     adapter: adapter(),
+    router: { resolution: "server" },
   },
   vitePlugin: {
     inspector: {

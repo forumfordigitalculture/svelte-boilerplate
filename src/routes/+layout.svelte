@@ -30,13 +30,15 @@
   <title>Forum for Digital Culture</title>
   <meta
     name="description"
-    content="This is a SvelteKit template for the Forum for Digital Culture at the University of Chicago." />
+    content="This is a SvelteKit template for the Forum for Digital Culture at the University of Chicago."
+  />
 </svelte:head>
 
 <QueryClientProvider client={queryClient}>
   <SvelteQueryDevtools />
   <div
-    class="font-display grid min-h-[100dvh] grid-rows-[auto_1fr_auto] content-start bg-white text-neutral-900 dark:bg-black dark:text-neutral-50">
+    class="font-display grid min-h-[100dvh] grid-rows-[auto_1fr_auto] content-start bg-white text-neutral-900 dark:bg-black dark:text-neutral-50"
+  >
     <Header />
     {@render children()}
     <Footer />

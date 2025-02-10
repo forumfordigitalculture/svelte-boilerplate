@@ -12,7 +12,8 @@
       onclick={() => {
         toast.dismiss();
         toast("You clicked me!");
-      }}>
+      }}
+    >
       Click me
     </Button>
   </div>
@@ -34,8 +35,9 @@
     <Accordion.Root type="single" class="w-full sm:max-w-[70%]">
       <Accordion.Item value="item-1">
         <Accordion.Trigger>Is it accessible?</Accordion.Trigger>
-        <Accordion.Content
-          >Yes. It adheres to the WAI-ARIA design pattern.</Accordion.Content>
+        <Accordion.Content>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </Accordion.Content>
       </Accordion.Item>
       <Accordion.Item value="item-2">
         <Accordion.Trigger>Is it styled?</Accordion.Trigger>
