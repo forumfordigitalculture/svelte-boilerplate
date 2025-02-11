@@ -15,7 +15,7 @@
     "format:fix": "prettier --write --list-different ."
   },
   "dependencies": {
-    "@digitalculture/ochre-sdk": "^0.2.6",
+    "@digitalculture/ochre-sdk": "^0.2.7",
     "@fontsource-variable/inter": "^5.1.1",
     "@tanstack/svelte-query": "^5.66.0",
     "@tanstack/svelte-query-devtools": "^5.66.0",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.0",
     "@prgm/sveltekit-progress-bar": "^3.0.1",
+    "@sveltejs/adapter-node": "^5.2.12",
     "@sveltejs/adapter-vercel": "^5.6.1",
     "@sveltejs/kit": "^2.17.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
@@ -54,5 +55,5 @@
     "unplugin-turbo-console": "^1.11.2",
     "vite": "^6.1.0"
   },
-  "packageManager": "pnpm@10.2.1"
+  "packageManager": "pnpm@10.3.0"
 }
