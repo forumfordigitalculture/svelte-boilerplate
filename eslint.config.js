@@ -1,12 +1,8 @@
 import antfu from "@antfu/eslint-config";
-import pluginQuery from "@tanstack/eslint-plugin-query";
 
 export default antfu({
   stylistic: false,
   svelte: true,
-  plugins: {
-    "@tanstack/query": pluginQuery,
-  },
   typescript: {
     tsconfigPath: "tsconfig.json",
     overrides: {
@@ -49,7 +45,6 @@ export default antfu({
     allRecommended: true,
   },
   rules: {
-    ...pluginQuery.configs.recommended.rules,
     "unicorn/filename-case": [
       "error",
       {
